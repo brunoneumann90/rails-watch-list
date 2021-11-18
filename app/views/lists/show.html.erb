@@ -1,0 +1,8 @@
+<div class="container">
+    <%= link_to list_path(@list) do %>
+      <div>
+        <p><%= @list.name %></p>
+      </div>
+    <% end %>
+    <%= link_to 'All lists', lists_path, class: 'btn btn-success' %>
+</div>
